@@ -1,9 +1,12 @@
 import React from "react"
 
 const Footer = () => {
+  var d = new Date()
+  var n = d.getFullYear()
+
   return (
     <div>
-      <h3>I am the Footer</h3>
+      <h4>This is the Footer area @{n}</h4>
     </div>
   )
 }
