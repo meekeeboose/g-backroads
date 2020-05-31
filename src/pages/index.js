@@ -10,6 +10,13 @@ export default function Home() {
           Hello world! <Link to="/blog">Blog</Link>
         </h1>
       </Layout>
+      <div className="container">
+        <div className="row">
+          <div className="col-4">Hello</div>
+          <div className="col-4">Hello</div>
+          <div className="col-4">Hello</div>
+        </div>
+      </div>
     </div>
   )
 }
